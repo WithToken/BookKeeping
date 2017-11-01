@@ -1,0 +1,8 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MMBookkeeping' do
+
+pod 'CYLTabBarController', '~> 1.14.1'  
+
+end

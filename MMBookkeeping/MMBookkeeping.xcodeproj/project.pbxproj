@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2CC9391FA0993500671E49 /* UIViewController+RRPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CC9311FA0993500671E49 /* UIViewController+RRPresentTransition.m */; };
+		2B2CC93A1FA0993500671E49 /* RRTransitionManager+TopBottomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CC9331FA0993500671E49 /* RRTransitionManager+TopBottomAnimation.m */; };
+		2B2CC93B1FA0993500671E49 /* RRTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CC9351FA0993500671E49 /* RRTransitionManager.m */; };
+		2B2CC93C1FA0993500671E49 /* NSObject+RRTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CC9371FA0993500671E49 /* NSObject+RRTransition.m */; };
+		2B2CFBB11FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CFBB01FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.m */; };
+		2B2DDBEB1FA7328A003581BD /* MMBExpendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DDBEA1FA7328A003581BD /* MMBExpendVC.m */; };
+		2B2DDBEF1FA73493003581BD /* AddExpendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DDBED1FA73493003581BD /* AddExpendViewController.m */; };
+		2B2DDBF01FA73493003581BD /* AddExpendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DDBEE1FA73493003581BD /* AddExpendViewController.xib */; };
+		2B2FEE941F9EDFE00069BF35 /* MMBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FEE931F9EDFE00069BF35 /* MMBNavigationController.m */; };
+		2B2FEE9D1F9F1A730069BF35 /* MMBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FEE9C1F9F1A730069BF35 /* MMBTabBarController.m */; };
+		2B2FEEB11F9F4DE70069BF35 /* MMBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FEEB01F9F4DE70069BF35 /* MMBBaseViewController.m */; };
+		2B311A971F9D9B6100E3AEFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B311A961F9D9B6100E3AEFB /* main.m */; };
+		2B311A9A1F9D9B6100E3AEFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B311A991F9D9B6100E3AEFB /* AppDelegate.m */; };
+		2B311A9D1F9D9B6100E3AEFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B311A9C1F9D9B6100E3AEFB /* ViewController.m */; };
+		2B311AA01F9D9B6100E3AEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B311A9E1F9D9B6100E3AEFB /* Main.storyboard */; };
+		2B311AA21F9D9B6100E3AEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B311AA11F9D9B6100E3AEFB /* Assets.xcassets */; };
+		2B311AA51F9D9B6100E3AEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B311AA31F9D9B6100E3AEFB /* LaunchScreen.storyboard */; };
+		2B311AB01F9D9B6200E3AEFB /* MMBookkeepingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B311AAF1F9D9B6200E3AEFB /* MMBookkeepingTests.m */; };
+		2B311ABB1F9D9B6200E3AEFB /* MMBookkeepingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B311ABA1F9D9B6200E3AEFB /* MMBookkeepingUITests.m */; };
+		2B311AD21F9DF67900E3AEFB /* MMBTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B311AD11F9DF67900E3AEFB /* MMBTabBarControllerConfig.m */; };
+		2B311ADA1F9DFC8000E3AEFB /* MMBIncomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B311AD91F9DFC8000E3AEFB /* MMBIncomeVC.m */; };
+		B75B2575240B7ABC39E09FAD /* libPods-MMBookkeeping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F73EA88D428441A82B9278CC /* libPods-MMBookkeeping.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B311AAC1F9D9B6200E3AEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B311A8A1F9D9B6100E3AEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B311A911F9D9B6100E3AEFB;
+			remoteInfo = MMBookkeeping;
+		};
+		2B311AB71F9D9B6200E3AEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B311A8A1F9D9B6100E3AEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B311A911F9D9B6100E3AEFB;
+			remoteInfo = MMBookkeeping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2CC92E1FA0993500671E49 /* MMBDefaultHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBDefaultHeader.h; sourceTree = "<group>"; };
+		2B2CC9301FA0993500671E49 /* RRTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTransitionManager.h; sourceTree = "<group>"; };
+		2B2CC9311FA0993500671E49 /* UIViewController+RRPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RRPresentTransition.m"; sourceTree = "<group>"; };
+		2B2CC9321FA0993500671E49 /* NSObject+RRTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RRTransition.h"; sourceTree = "<group>"; };
+		2B2CC9331FA0993500671E49 /* RRTransitionManager+TopBottomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RRTransitionManager+TopBottomAnimation.m"; sourceTree = "<group>"; };
+		2B2CC9341FA0993500671E49 /* RRTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTransition.h; sourceTree = "<group>"; };
+		2B2CC9351FA0993500671E49 /* RRTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTransitionManager.m; sourceTree = "<group>"; };
+		2B2CC9361FA0993500671E49 /* RRTransitionManager+TopBottomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RRTransitionManager+TopBottomAnimation.h"; sourceTree = "<group>"; };
+		2B2CC9371FA0993500671E49 /* NSObject+RRTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RRTransition.m"; sourceTree = "<group>"; };
+		2B2CC9381FA0993500671E49 /* UIViewController+RRPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RRPresentTransition.h"; sourceTree = "<group>"; };
+		2B2CFBAF1FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MMBExtension.h"; sourceTree = "<group>"; };
+		2B2CFBB01FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MMBExtension.m"; sourceTree = "<group>"; };
+		2B2DDBE91FA7328A003581BD /* MMBExpendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBExpendVC.h; sourceTree = "<group>"; };
+		2B2DDBEA1FA7328A003581BD /* MMBExpendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBExpendVC.m; sourceTree = "<group>"; };
+		2B2DDBEC1FA73493003581BD /* AddExpendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddExpendViewController.h; sourceTree = "<group>"; };
+		2B2DDBED1FA73493003581BD /* AddExpendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddExpendViewController.m; sourceTree = "<group>"; };
+		2B2DDBEE1FA73493003581BD /* AddExpendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddExpendViewController.xib; sourceTree = "<group>"; };
+		2B2FEE921F9EDFE00069BF35 /* MMBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBNavigationController.h; sourceTree = "<group>"; };
+		2B2FEE931F9EDFE00069BF35 /* MMBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBNavigationController.m; sourceTree = "<group>"; };
+		2B2FEE9B1F9F1A730069BF35 /* MMBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBTabBarController.h; sourceTree = "<group>"; };
+		2B2FEE9C1F9F1A730069BF35 /* MMBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBTabBarController.m; sourceTree = "<group>"; };
+		2B2FEEAF1F9F4DE70069BF35 /* MMBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBBaseViewController.h; sourceTree = "<group>"; };
+		2B2FEEB01F9F4DE70069BF35 /* MMBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBBaseViewController.m; sourceTree = "<group>"; };
+		2B311A921F9D9B6100E3AEFB /* MMBookkeeping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMBookkeeping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B311A961F9D9B6100E3AEFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B311A981F9D9B6100E3AEFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B311A991F9D9B6100E3AEFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B311A9B1F9D9B6100E3AEFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B311A9C1F9D9B6100E3AEFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B311A9F1F9D9B6100E3AEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B311AA11F9D9B6100E3AEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B311AA41F9D9B6100E3AEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B311AA61F9D9B6100E3AEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B311AAB1F9D9B6200E3AEFB /* MMBookkeepingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMBookkeepingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B311AAF1F9D9B6200E3AEFB /* MMBookkeepingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBookkeepingTests.m; sourceTree = "<group>"; };
+		2B311AB11F9D9B6200E3AEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B311AB61F9D9B6200E3AEFB /* MMBookkeepingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMBookkeepingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B311ABA1F9D9B6200E3AEFB /* MMBookkeepingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBookkeepingUITests.m; sourceTree = "<group>"; };
+		2B311ABC1F9D9B6200E3AEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B311AD01F9DF67900E3AEFB /* MMBTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBTabBarControllerConfig.h; sourceTree = "<group>"; };
+		2B311AD11F9DF67900E3AEFB /* MMBTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBTabBarControllerConfig.m; sourceTree = "<group>"; };
+		2B311AD81F9DFC8000E3AEFB /* MMBIncomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBIncomeVC.h; sourceTree = "<group>"; };
+		2B311AD91F9DFC8000E3AEFB /* MMBIncomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBIncomeVC.m; sourceTree = "<group>"; };
+		3A472A6D9F3DCFF31AB9EEF5 /* Pods-MMBookkeeping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMBookkeeping.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMBookkeeping/Pods-MMBookkeeping.release.xcconfig"; sourceTree = "<group>"; };
+		605B65D4AF0FA44A87B255CE /* Pods-MMBookkeeping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMBookkeeping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMBookkeeping/Pods-MMBookkeeping.debug.xcconfig"; sourceTree = "<group>"; };
+		F73EA88D428441A82B9278CC /* libPods-MMBookkeeping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMBookkeeping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B311A8F1F9D9B6100E3AEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75B2575240B7ABC39E09FAD /* libPods-MMBookkeeping.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B311AA81F9D9B6200E3AEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B311AB31F9D9B6200E3AEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2CC92D1FA0993500671E49 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				2B2CC92E1FA0993500671E49 /* MMBDefaultHeader.h */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		2B2CC92F1FA0993500671E49 /* RRTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2B2CC9341FA0993500671E49 /* RRTransition.h */,
+				2B2CC9381FA0993500671E49 /* UIViewController+RRPresentTransition.h */,
+				2B2CC9311FA0993500671E49 /* UIViewController+RRPresentTransition.m */,
+				2B2CC9361FA0993500671E49 /* RRTransitionManager+TopBottomAnimation.h */,
+				2B2CC9331FA0993500671E49 /* RRTransitionManager+TopBottomAnimation.m */,
+				2B2CC9301FA0993500671E49 /* RRTransitionManager.h */,
+				2B2CC9351FA0993500671E49 /* RRTransitionManager.m */,
+				2B2CC9321FA0993500671E49 /* NSObject+RRTransition.h */,
+				2B2CC9371FA0993500671E49 /* NSObject+RRTransition.m */,
+			);
+			path = RRTransition;
+			sourceTree = "<group>";
+		};
+		2B2CFBAE1FA8127500FD4E58 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2B2CFBAF1FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.h */,
+				2B2CFBB01FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2B2DDBE81FA7328A003581BD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DDBE91FA7328A003581BD /* MMBExpendVC.h */,
+				2B2DDBEA1FA7328A003581BD /* MMBExpendVC.m */,
+				2B2DDBEC1FA73493003581BD /* AddExpendViewController.h */,
+				2B2DDBED1FA73493003581BD /* AddExpendViewController.m */,
+				2B2DDBEE1FA73493003581BD /* AddExpendViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2B2FEE951F9F0D410069BF35 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2B2CFBAE1FA8127500FD4E58 /* Category */,
+				2B2FEE961F9F0D410069BF35 /* Tool */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2B2FEE961F9F0D410069BF35 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2B2CC92D1FA0993500671E49 /* head */,
+				2B2CC92F1FA0993500671E49 /* RRTransition */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		2B2FEEAD1F9F4DD70069BF35 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2B2FEEAE1F9F4DD70069BF35 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2B2FEEAE1F9F4DD70069BF35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B2FEEAF1F9F4DE70069BF35 /* MMBBaseViewController.h */,
+				2B2FEEB01F9F4DE70069BF35 /* MMBBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B311A891F9D9B6100E3AEFB = {
+			isa = PBXGroup;
+			children = (
+				2B311A941F9D9B6100E3AEFB /* MMBookkeeping */,
+				2B311AAE1F9D9B6200E3AEFB /* MMBookkeepingTests */,
+				2B311AB91F9D9B6200E3AEFB /* MMBookkeepingUITests */,
+				2B311A931F9D9B6100E3AEFB /* Products */,
+				F754B358F39585A9AD59F8A6 /* Pods */,
+				8FD9BB17DE51B26DEC886722 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B311A931F9D9B6100E3AEFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B311A921F9D9B6100E3AEFB /* MMBookkeeping.app */,
+				2B311AAB1F9D9B6200E3AEFB /* MMBookkeepingTests.xctest */,
+				2B311AB61F9D9B6200E3AEFB /* MMBookkeepingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B311A941F9D9B6100E3AEFB /* MMBookkeeping */ = {
+			isa = PBXGroup;
+			children = (
+				2B2FEEAD1F9F4DD70069BF35 /* Base */,
+				2B2FEE951F9F0D410069BF35 /* Other */,
+				2B311ACB1F9DF33600E3AEFB /* Page */,
+				2B311A981F9D9B6100E3AEFB /* AppDelegate.h */,
+				2B311A991F9D9B6100E3AEFB /* AppDelegate.m */,
+				2B311A9B1F9D9B6100E3AEFB /* ViewController.h */,
+				2B311A9C1F9D9B6100E3AEFB /* ViewController.m */,
+				2B311A9E1F9D9B6100E3AEFB /* Main.storyboard */,
+				2B311AA11F9D9B6100E3AEFB /* Assets.xcassets */,
+				2B311AA31F9D9B6100E3AEFB /* LaunchScreen.storyboard */,
+				2B311AA61F9D9B6100E3AEFB /* Info.plist */,
+				2B311A951F9D9B6100E3AEFB /* Supporting Files */,
+			);
+			path = MMBookkeeping;
+			sourceTree = "<group>";
+		};
+		2B311A951F9D9B6100E3AEFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B311A961F9D9B6100E3AEFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B311AAE1F9D9B6200E3AEFB /* MMBookkeepingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B311AAF1F9D9B6200E3AEFB /* MMBookkeepingTests.m */,
+				2B311AB11F9D9B6200E3AEFB /* Info.plist */,
+			);
+			path = MMBookkeepingTests;
+			sourceTree = "<group>";
+		};
+		2B311AB91F9D9B6200E3AEFB /* MMBookkeepingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B311ABA1F9D9B6200E3AEFB /* MMBookkeepingUITests.m */,
+				2B311ABC1F9D9B6200E3AEFB /* Info.plist */,
+			);
+			path = MMBookkeepingUITests;
+			sourceTree = "<group>";
+		};
+		2B311ACB1F9DF33600E3AEFB /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				2B311AD31F9DFABE00E3AEFB /* expend */,
+				2B311AD41F9DFABE00E3AEFB /* income */,
+				2B311ACC1F9DF3BB00E3AEFB /* main */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		2B311ACC1F9DF3BB00E3AEFB /* main */ = {
+			isa = PBXGroup;
+			children = (
+				2B311ACF1F9DF64E00E3AEFB /* TabBarController */,
+				2B311ACD1F9DF3BB00E3AEFB /* NavigationController */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		2B311ACD1F9DF3BB00E3AEFB /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				2B2FEE921F9EDFE00069BF35 /* MMBNavigationController.h */,
+				2B2FEE931F9EDFE00069BF35 /* MMBNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		2B311ACF1F9DF64E00E3AEFB /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2B311AD01F9DF67900E3AEFB /* MMBTabBarControllerConfig.h */,
+				2B311AD11F9DF67900E3AEFB /* MMBTabBarControllerConfig.m */,
+				2B2FEE9B1F9F1A730069BF35 /* MMBTabBarController.h */,
+				2B2FEE9C1F9F1A730069BF35 /* MMBTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		2B311AD31F9DFABE00E3AEFB /* expend */ = {
+			isa = PBXGroup;
+			children = (
+				2B2DDBE81FA7328A003581BD /* ViewController */,
+			);
+			path = expend;
+			sourceTree = "<group>";
+		};
+		2B311AD41F9DFABE00E3AEFB /* income */ = {
+			isa = PBXGroup;
+			children = (
+				2B311AD81F9DFC8000E3AEFB /* MMBIncomeVC.h */,
+				2B311AD91F9DFC8000E3AEFB /* MMBIncomeVC.m */,
+			);
+			path = income;
+			sourceTree = "<group>";
+		};
+		8FD9BB17DE51B26DEC886722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73EA88D428441A82B9278CC /* libPods-MMBookkeeping.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F754B358F39585A9AD59F8A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605B65D4AF0FA44A87B255CE /* Pods-MMBookkeeping.debug.xcconfig */,
+				3A472A6D9F3DCFF31AB9EEF5 /* Pods-MMBookkeeping.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B311A911F9D9B6100E3AEFB /* MMBookkeeping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B311ABF1F9D9B6200E3AEFB /* Build configuration list for PBXNativeTarget "MMBookkeeping" */;
+			buildPhases = (
+				71D56FAE4502FAD3717B1C6A /* [CP] Check Pods Manifest.lock */,
+				2B311A8E1F9D9B6100E3AEFB /* Sources */,
+				2B311A8F1F9D9B6100E3AEFB /* Frameworks */,
+				2B311A901F9D9B6100E3AEFB /* Resources */,
+				80C6F5754F585D95D0ACBB88 /* [CP] Embed Pods Frameworks */,
+				5D89B3D9D90CB179BB9DB1B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMBookkeeping;
+			productName = MMBookkeeping;
+			productReference = 2B311A921F9D9B6100E3AEFB /* MMBookkeeping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B311AAA1F9D9B6200E3AEFB /* MMBookkeepingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B311AC21F9D9B6200E3AEFB /* Build configuration list for PBXNativeTarget "MMBookkeepingTests" */;
+			buildPhases = (
+				2B311AA71F9D9B6200E3AEFB /* Sources */,
+				2B311AA81F9D9B6200E3AEFB /* Frameworks */,
+				2B311AA91F9D9B6200E3AEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B311AAD1F9D9B6200E3AEFB /* PBXTargetDependency */,
+			);
+			name = MMBookkeepingTests;
+			productName = MMBookkeepingTests;
+			productReference = 2B311AAB1F9D9B6200E3AEFB /* MMBookkeepingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B311AB51F9D9B6200E3AEFB /* MMBookkeepingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B311AC51F9D9B6200E3AEFB /* Build configuration list for PBXNativeTarget "MMBookkeepingUITests" */;
+			buildPhases = (
+				2B311AB21F9D9B6200E3AEFB /* Sources */,
+				2B311AB31F9D9B6200E3AEFB /* Frameworks */,
+				2B311AB41F9D9B6200E3AEFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B311AB81F9D9B6200E3AEFB /* PBXTargetDependency */,
+			);
+			name = MMBookkeepingUITests;
+			productName = MMBookkeepingUITests;
+			productReference = 2B311AB61F9D9B6200E3AEFB /* MMBookkeepingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B311A8A1F9D9B6100E3AEFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郭武将";
+				TargetAttributes = {
+					2B311A911F9D9B6100E3AEFB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CB34YTB4E9;
+						ProvisioningStyle = Automatic;
+					};
+					2B311AAA1F9D9B6200E3AEFB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CB34YTB4E9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B311A911F9D9B6100E3AEFB;
+					};
+					2B311AB51F9D9B6200E3AEFB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CB34YTB4E9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B311A911F9D9B6100E3AEFB;
+					};
+				};
+			};
+			buildConfigurationList = 2B311A8D1F9D9B6100E3AEFB /* Build configuration list for PBXProject "MMBookkeeping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B311A891F9D9B6100E3AEFB;
+			productRefGroup = 2B311A931F9D9B6100E3AEFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B311A911F9D9B6100E3AEFB /* MMBookkeeping */,
+				2B311AAA1F9D9B6200E3AEFB /* MMBookkeepingTests */,
+				2B311AB51F9D9B6200E3AEFB /* MMBookkeepingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B311A901F9D9B6100E3AEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2DDBF01FA73493003581BD /* AddExpendViewController.xib in Resources */,
+				2B311AA51F9D9B6100E3AEFB /* LaunchScreen.storyboard in Resources */,
+				2B311AA21F9D9B6100E3AEFB /* Assets.xcassets in Resources */,
+				2B311AA01F9D9B6100E3AEFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B311AA91F9D9B6200E3AEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B311AB41F9D9B6200E3AEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D89B3D9D90CB179BB9DB1B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMBookkeeping/Pods-MMBookkeeping-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71D56FAE4502FAD3717B1C6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMBookkeeping-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C6F5754F585D95D0ACBB88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMBookkeeping/Pods-MMBookkeeping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B311A8E1F9D9B6100E3AEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2CC93A1FA0993500671E49 /* RRTransitionManager+TopBottomAnimation.m in Sources */,
+				2B2FEE941F9EDFE00069BF35 /* MMBNavigationController.m in Sources */,
+				2B2CFBB11FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.m in Sources */,
+				2B311AD21F9DF67900E3AEFB /* MMBTabBarControllerConfig.m in Sources */,
+				2B311ADA1F9DFC8000E3AEFB /* MMBIncomeVC.m in Sources */,
+				2B2CC9391FA0993500671E49 /* UIViewController+RRPresentTransition.m in Sources */,
+				2B2CC93C1FA0993500671E49 /* NSObject+RRTransition.m in Sources */,
+				2B311A9D1F9D9B6100E3AEFB /* ViewController.m in Sources */,
+				2B2FEE9D1F9F1A730069BF35 /* MMBTabBarController.m in Sources */,
+				2B2FEEB11F9F4DE70069BF35 /* MMBBaseViewController.m in Sources */,
+				2B2DDBEB1FA7328A003581BD /* MMBExpendVC.m in Sources */,
+				2B2DDBEF1FA73493003581BD /* AddExpendViewController.m in Sources */,
+				2B311A9A1F9D9B6100E3AEFB /* AppDelegate.m in Sources */,
+				2B311A971F9D9B6100E3AEFB /* main.m in Sources */,
+				2B2CC93B1FA0993500671E49 /* RRTransitionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B311AA71F9D9B6200E3AEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B311AB01F9D9B6200E3AEFB /* MMBookkeepingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B311AB21F9D9B6200E3AEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B311ABB1F9D9B6200E3AEFB /* MMBookkeepingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B311AAD1F9D9B6200E3AEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B311A911F9D9B6100E3AEFB /* MMBookkeeping */;
+			targetProxy = 2B311AAC1F9D9B6200E3AEFB /* PBXContainerItemProxy */;
+		};
+		2B311AB81F9D9B6200E3AEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B311A911F9D9B6100E3AEFB /* MMBookkeeping */;
+			targetProxy = 2B311AB71F9D9B6200E3AEFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B311A9E1F9D9B6100E3AEFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B311A9F1F9D9B6100E3AEFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B311AA31F9D9B6100E3AEFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B311AA41F9D9B6100E3AEFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B311ABD1F9D9B6200E3AEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B311ABE1F9D9B6200E3AEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B311AC01F9D9B6200E3AEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605B65D4AF0FA44A87B255CE /* Pods-MMBookkeeping.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CB34YTB4E9;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = MMBookkeeping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujiang.MMBookkeeping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B311AC11F9D9B6200E3AEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A472A6D9F3DCFF31AB9EEF5 /* Pods-MMBookkeeping.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CB34YTB4E9;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = MMBookkeeping/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujiang.MMBookkeeping;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B311AC31F9D9B6200E3AEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CB34YTB4E9;
+				INFOPLIST_FILE = MMBookkeepingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujiang.MMBookkeepingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMBookkeeping.app/MMBookkeeping";
+			};
+			name = Debug;
+		};
+		2B311AC41F9D9B6200E3AEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CB34YTB4E9;
+				INFOPLIST_FILE = MMBookkeepingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujiang.MMBookkeepingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMBookkeeping.app/MMBookkeeping";
+			};
+			name = Release;
+		};
+		2B311AC61F9D9B6200E3AEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CB34YTB4E9;
+				INFOPLIST_FILE = MMBookkeepingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujiang.MMBookkeepingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMBookkeeping;
+			};
+			name = Debug;
+		};
+		2B311AC71F9D9B6200E3AEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CB34YTB4E9;
+				INFOPLIST_FILE = MMBookkeepingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujiang.MMBookkeepingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMBookkeeping;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B311A8D1F9D9B6100E3AEFB /* Build configuration list for PBXProject "MMBookkeeping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B311ABD1F9D9B6200E3AEFB /* Debug */,
+				2B311ABE1F9D9B6200E3AEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B311ABF1F9D9B6200E3AEFB /* Build configuration list for PBXNativeTarget "MMBookkeeping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B311AC01F9D9B6200E3AEFB /* Debug */,
+				2B311AC11F9D9B6200E3AEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B311AC21F9D9B6200E3AEFB /* Build configuration list for PBXNativeTarget "MMBookkeepingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B311AC31F9D9B6200E3AEFB /* Debug */,
+				2B311AC41F9D9B6200E3AEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B311AC51F9D9B6200E3AEFB /* Build configuration list for PBXNativeTarget "MMBookkeepingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B311AC61F9D9B6200E3AEFB /* Debug */,
+				2B311AC71F9D9B6200E3AEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B311A8A1F9D9B6100E3AEFB /* Project object */;
+}
