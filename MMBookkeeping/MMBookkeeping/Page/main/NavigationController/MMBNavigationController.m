@@ -19,12 +19,12 @@
     // 设置为不透明
     [[UINavigationBar appearance] setTranslucent:NO];
     // 设置导航栏背景颜色
-    [UINavigationBar appearance].barTintColor = [UIColor whiteColor];
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:247/255.0 green:247/255.0 blue:248/255.0 alpha:1.0];
     // 设置导航栏标题文字颜色
     // 创建字典保存文字大小和颜色
     NSMutableDictionary * color = [NSMutableDictionary dictionary];
-    color[NSFontAttributeName] = kFont(17.0f);
-    color[NSForegroundColorAttributeName] = [UIColor colorWithRed:0.42f green:0.33f blue:0.27f alpha:1.00f];;
+    color[NSFontAttributeName] = kFont(20.0f);
+    color[NSForegroundColorAttributeName] = [UIColor blackColor];;
     [[UINavigationBar appearance] setTitleTextAttributes:color];
     
     // 拿到整个导航控制器的外观

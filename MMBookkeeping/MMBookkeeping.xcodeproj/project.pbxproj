@@ -15,6 +15,19 @@
 		2B2DDBEB1FA7328A003581BD /* MMBExpendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DDBEA1FA7328A003581BD /* MMBExpendVC.m */; };
 		2B2DDBEF1FA73493003581BD /* AddExpendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2DDBED1FA73493003581BD /* AddExpendViewController.m */; };
 		2B2DDBF01FA73493003581BD /* AddExpendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2DDBEE1FA73493003581BD /* AddExpendViewController.xib */; };
+		2B2E28F11FAC4F280041C4F5 /* MMBAmountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E28EF1FAC4F280041C4F5 /* MMBAmountCell.m */; };
+		2B2E28F21FAC4F280041C4F5 /* MMBAmountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E28F01FAC4F280041C4F5 /* MMBAmountCell.xib */; };
+		2B2E28F61FAC4F960041C4F5 /* MMBDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E28F41FAC4F960041C4F5 /* MMBDateCell.m */; };
+		2B2E28F71FAC4F960041C4F5 /* MMBDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E28F51FAC4F960041C4F5 /* MMBDateCell.xib */; };
+		2B2E28FB1FAC4FB80041C4F5 /* MMBTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E28F91FAC4FB80041C4F5 /* MMBTagCell.m */; };
+		2B2E28FC1FAC4FB80041C4F5 /* MMBTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E28FA1FAC4FB80041C4F5 /* MMBTagCell.xib */; };
+		2B2E29101FAC7BEA0041C4F5 /* NSDate+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E28FF1FAC7BEA0041C4F5 /* NSDate+Expand.m */; };
+		2B2E29111FAC7BEA0041C4F5 /* LGCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E29021FAC7BEA0041C4F5 /* LGCalendarManager.m */; };
+		2B2E29121FAC7BEA0041C4F5 /* LGCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E29051FAC7BEA0041C4F5 /* LGCalendarModel.m */; };
+		2B2E29131FAC7BEA0041C4F5 /* LGCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E29091FAC7BEA0041C4F5 /* LGCalendar.m */; };
+		2B2E29141FAC7BEA0041C4F5 /* LGWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E290C1FAC7BEA0041C4F5 /* LGWeekView.m */; };
+		2B2E29151FAC7BEA0041C4F5 /* LGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E290E1FAC7BEA0041C4F5 /* LGCollectionView.m */; };
+		2B2E29161FAC7BEA0041C4F5 /* LGCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E290F1FAC7BEA0041C4F5 /* LGCalendarCell.m */; };
 		2B2FEE941F9EDFE00069BF35 /* MMBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FEE931F9EDFE00069BF35 /* MMBNavigationController.m */; };
 		2B2FEE9D1F9F1A730069BF35 /* MMBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FEE9C1F9F1A730069BF35 /* MMBTabBarController.m */; };
 		2B2FEEB11F9F4DE70069BF35 /* MMBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FEEB01F9F4DE70069BF35 /* MMBBaseViewController.m */; };
@@ -66,6 +79,29 @@
 		2B2DDBEC1FA73493003581BD /* AddExpendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddExpendViewController.h; sourceTree = "<group>"; };
 		2B2DDBED1FA73493003581BD /* AddExpendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddExpendViewController.m; sourceTree = "<group>"; };
 		2B2DDBEE1FA73493003581BD /* AddExpendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddExpendViewController.xib; sourceTree = "<group>"; };
+		2B2E28EE1FAC4F280041C4F5 /* MMBAmountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBAmountCell.h; sourceTree = "<group>"; };
+		2B2E28EF1FAC4F280041C4F5 /* MMBAmountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBAmountCell.m; sourceTree = "<group>"; };
+		2B2E28F01FAC4F280041C4F5 /* MMBAmountCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMBAmountCell.xib; sourceTree = "<group>"; };
+		2B2E28F31FAC4F960041C4F5 /* MMBDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBDateCell.h; sourceTree = "<group>"; };
+		2B2E28F41FAC4F960041C4F5 /* MMBDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBDateCell.m; sourceTree = "<group>"; };
+		2B2E28F51FAC4F960041C4F5 /* MMBDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMBDateCell.xib; sourceTree = "<group>"; };
+		2B2E28F81FAC4FB80041C4F5 /* MMBTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBTagCell.h; sourceTree = "<group>"; };
+		2B2E28F91FAC4FB80041C4F5 /* MMBTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBTagCell.m; sourceTree = "<group>"; };
+		2B2E28FA1FAC4FB80041C4F5 /* MMBTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMBTagCell.xib; sourceTree = "<group>"; };
+		2B2E28FF1FAC7BEA0041C4F5 /* NSDate+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Expand.m"; sourceTree = "<group>"; };
+		2B2E29001FAC7BEA0041C4F5 /* NSDate+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Expand.h"; sourceTree = "<group>"; };
+		2B2E29021FAC7BEA0041C4F5 /* LGCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCalendarManager.m; sourceTree = "<group>"; };
+		2B2E29031FAC7BEA0041C4F5 /* LGCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCalendarManager.h; sourceTree = "<group>"; };
+		2B2E29051FAC7BEA0041C4F5 /* LGCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCalendarModel.m; sourceTree = "<group>"; };
+		2B2E29061FAC7BEA0041C4F5 /* LGCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCalendarModel.h; sourceTree = "<group>"; };
+		2B2E29081FAC7BEA0041C4F5 /* LGWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGWeekView.h; sourceTree = "<group>"; };
+		2B2E29091FAC7BEA0041C4F5 /* LGCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCalendar.m; sourceTree = "<group>"; };
+		2B2E290A1FAC7BEA0041C4F5 /* LGCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCalendarCell.h; sourceTree = "<group>"; };
+		2B2E290B1FAC7BEA0041C4F5 /* LGCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCollectionView.h; sourceTree = "<group>"; };
+		2B2E290C1FAC7BEA0041C4F5 /* LGWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGWeekView.m; sourceTree = "<group>"; };
+		2B2E290D1FAC7BEA0041C4F5 /* LGCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCalendar.h; sourceTree = "<group>"; };
+		2B2E290E1FAC7BEA0041C4F5 /* LGCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCollectionView.m; sourceTree = "<group>"; };
+		2B2E290F1FAC7BEA0041C4F5 /* LGCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCalendarCell.m; sourceTree = "<group>"; };
 		2B2FEE921F9EDFE00069BF35 /* MMBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBNavigationController.h; sourceTree = "<group>"; };
 		2B2FEE931F9EDFE00069BF35 /* MMBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBNavigationController.m; sourceTree = "<group>"; };
 		2B2FEE9B1F9F1A730069BF35 /* MMBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBTabBarController.h; sourceTree = "<group>"; };
@@ -168,6 +204,75 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		2B2E28ED1FAC4E500041C4F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E28EE1FAC4F280041C4F5 /* MMBAmountCell.h */,
+				2B2E28EF1FAC4F280041C4F5 /* MMBAmountCell.m */,
+				2B2E28F01FAC4F280041C4F5 /* MMBAmountCell.xib */,
+				2B2E28F31FAC4F960041C4F5 /* MMBDateCell.h */,
+				2B2E28F41FAC4F960041C4F5 /* MMBDateCell.m */,
+				2B2E28F51FAC4F960041C4F5 /* MMBDateCell.xib */,
+				2B2E28F81FAC4FB80041C4F5 /* MMBTagCell.h */,
+				2B2E28F91FAC4FB80041C4F5 /* MMBTagCell.m */,
+				2B2E28FA1FAC4FB80041C4F5 /* MMBTagCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B2E28FD1FAC7BEA0041C4F5 /* LGCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E28FE1FAC7BEA0041C4F5 /* catagory */,
+				2B2E29011FAC7BEA0041C4F5 /* manager */,
+				2B2E29041FAC7BEA0041C4F5 /* Model */,
+				2B2E29071FAC7BEA0041C4F5 /* View */,
+			);
+			path = LGCalendar;
+			sourceTree = "<group>";
+		};
+		2B2E28FE1FAC7BEA0041C4F5 /* catagory */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E28FF1FAC7BEA0041C4F5 /* NSDate+Expand.m */,
+				2B2E29001FAC7BEA0041C4F5 /* NSDate+Expand.h */,
+			);
+			path = catagory;
+			sourceTree = "<group>";
+		};
+		2B2E29011FAC7BEA0041C4F5 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E29021FAC7BEA0041C4F5 /* LGCalendarManager.m */,
+				2B2E29031FAC7BEA0041C4F5 /* LGCalendarManager.h */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		2B2E29041FAC7BEA0041C4F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E29051FAC7BEA0041C4F5 /* LGCalendarModel.m */,
+				2B2E29061FAC7BEA0041C4F5 /* LGCalendarModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B2E29071FAC7BEA0041C4F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B2E29081FAC7BEA0041C4F5 /* LGWeekView.h */,
+				2B2E29091FAC7BEA0041C4F5 /* LGCalendar.m */,
+				2B2E290A1FAC7BEA0041C4F5 /* LGCalendarCell.h */,
+				2B2E290B1FAC7BEA0041C4F5 /* LGCollectionView.h */,
+				2B2E290C1FAC7BEA0041C4F5 /* LGWeekView.m */,
+				2B2E290D1FAC7BEA0041C4F5 /* LGCalendar.h */,
+				2B2E290E1FAC7BEA0041C4F5 /* LGCollectionView.m */,
+				2B2E290F1FAC7BEA0041C4F5 /* LGCalendarCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		2B2FEE951F9F0D410069BF35 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +285,7 @@
 		2B2FEE961F9F0D410069BF35 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				2B2E28FD1FAC7BEA0041C4F5 /* LGCalendar */,
 				2B2CC92D1FA0993500671E49 /* head */,
 				2B2CC92F1FA0993500671E49 /* RRTransition */,
 			);
@@ -312,6 +418,7 @@
 		2B311AD31F9DFABE00E3AEFB /* expend */ = {
 			isa = PBXGroup;
 			children = (
+				2B2E28ED1FAC4E500041C4F5 /* View */,
 				2B2DDBE81FA7328A003581BD /* ViewController */,
 			);
 			path = expend;
@@ -457,6 +564,9 @@
 			files = (
 				2B2DDBF01FA73493003581BD /* AddExpendViewController.xib in Resources */,
 				2B311AA51F9D9B6100E3AEFB /* LaunchScreen.storyboard in Resources */,
+				2B2E28F71FAC4F960041C4F5 /* MMBDateCell.xib in Resources */,
+				2B2E28FC1FAC4FB80041C4F5 /* MMBTagCell.xib in Resources */,
+				2B2E28F21FAC4F280041C4F5 /* MMBAmountCell.xib in Resources */,
 				2B311AA21F9D9B6100E3AEFB /* Assets.xcassets in Resources */,
 				2B311AA01F9D9B6100E3AEFB /* Main.storyboard in Resources */,
 			);
@@ -539,13 +649,23 @@
 				2B2CFBB11FA812A900FD4E58 /* UIBarButtonItem+MMBExtension.m in Sources */,
 				2B311AD21F9DF67900E3AEFB /* MMBTabBarControllerConfig.m in Sources */,
 				2B311ADA1F9DFC8000E3AEFB /* MMBIncomeVC.m in Sources */,
+				2B2E29101FAC7BEA0041C4F5 /* NSDate+Expand.m in Sources */,
+				2B2E29141FAC7BEA0041C4F5 /* LGWeekView.m in Sources */,
+				2B2E29151FAC7BEA0041C4F5 /* LGCollectionView.m in Sources */,
+				2B2E28FB1FAC4FB80041C4F5 /* MMBTagCell.m in Sources */,
 				2B2CC9391FA0993500671E49 /* UIViewController+RRPresentTransition.m in Sources */,
 				2B2CC93C1FA0993500671E49 /* NSObject+RRTransition.m in Sources */,
 				2B311A9D1F9D9B6100E3AEFB /* ViewController.m in Sources */,
+				2B2E28F61FAC4F960041C4F5 /* MMBDateCell.m in Sources */,
+				2B2E29161FAC7BEA0041C4F5 /* LGCalendarCell.m in Sources */,
 				2B2FEE9D1F9F1A730069BF35 /* MMBTabBarController.m in Sources */,
+				2B2E29121FAC7BEA0041C4F5 /* LGCalendarModel.m in Sources */,
 				2B2FEEB11F9F4DE70069BF35 /* MMBBaseViewController.m in Sources */,
+				2B2E28F11FAC4F280041C4F5 /* MMBAmountCell.m in Sources */,
+				2B2E29111FAC7BEA0041C4F5 /* LGCalendarManager.m in Sources */,
 				2B2DDBEB1FA7328A003581BD /* MMBExpendVC.m in Sources */,
 				2B2DDBEF1FA73493003581BD /* AddExpendViewController.m in Sources */,
+				2B2E29131FAC7BEA0041C4F5 /* LGCalendar.m in Sources */,
 				2B311A9A1F9D9B6100E3AEFB /* AppDelegate.m in Sources */,
 				2B311A971F9D9B6100E3AEFB /* main.m in Sources */,
 				2B2CC93B1FA0993500671E49 /* RRTransitionManager.m in Sources */,
